@@ -5,9 +5,10 @@
 *Isso significa que são instanciados apenas uma vez durante a execução do jogo e podem ser acessados globalmente, com seus métodos disponíveis em qualquer parte do projeto.*
 
 - [Controlador Iluminação](Auxiliares/controlador_iluminacao.md)
-- [Controlador Iluminação](Auxiliares/controlador_musica.md)
-- [Controlador Iluminação](Auxiliares/controlador_ruido.md)
-- [Controlador Iluminação](Auxiliares/controlador_traducao.md)
+- [Controlador Música](Auxiliares/controlador_musica.md)
+- [Controlador Ruído](Auxiliares/controlador_ruido.md)
+- [Controlador Tradução](Auxiliares/controlador_traducao.md)
+
 
 
 
