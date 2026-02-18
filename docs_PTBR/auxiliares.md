@@ -1,3 +1,5 @@
+# Documentaçâo Auxiliares
+
 A ideia deste documento é apresentar a documentação dos auxiliares do nosso jogo, com foco em explicar o que eles fazem e como utilizá-los.
 
 Todos os auxiliares são AutoLoads e, em termos de design patterns, funcionam como singletons.
