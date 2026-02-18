@@ -13,8 +13,6 @@ Entidade
    └── InimigoVoador
 ```
 
-🔧 Coloque esse bloco em fonte Roboto Mono
-
 ## 3. Entidade
 Classe base do projeto para todas as entidades do jogo.
 
