@@ -4,6 +4,7 @@
 
 *Isso significa que são instanciados apenas uma vez durante a execução do jogo e podem ser acessados globalmente, com seus métodos disponíveis em qualquer parte do projeto.*
 
-- [Controlador Iluminação](docs_PTBR/auxiliares/controlador_iluminacao.md)
+- [Controlador Iluminação](auxiliares/controlador_iluminacao.md)
+
 
 
