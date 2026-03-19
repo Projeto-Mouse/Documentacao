@@ -140,6 +140,8 @@ Agora que fizemos a pasta Tesoura dentro de ferramenta e colocamos os scripts de
 
 Essa nova Cena3D vai ter um Node3D, um Sprite3D que vai ser o sprite da tesoura e algumas coisas a mais que talvez queremos colocar.
 
+Além disso vamos ter uma Area3D e um ColisionShap3D, que é o colision da área não uma colisão do item.
+
 No Node3D do item vamos colocar o Script ItemMundo e, no inspetor, na parte Item Data, vamos colocar o tesoura_data.tres que geramos usando o TesouraData.
 
 Depois disso, vamos na pasta Cenas/CenasMaoJogador e vamos criar uma Cena3D que, dessa vez, vai ter um Node3D, um Sprite3D e talvez mais algumas coisas.
