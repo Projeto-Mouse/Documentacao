@@ -162,19 +162,19 @@ E pronto, agora é só instanciar a cena que está em Cenas/CenasMapa no mapa e 
 
 A primeira imagem é a árvore da cena da tocha que fica na pasta Cenas/CenasMundo:
 
-![Arvore Cena Tocha Mundo](docs_PTBR/Imagens/TochaMundoArvore.png)
+![Arvore Cena Tocha Mundo](Imagens/TochaMundoArvore.png)
 
 A segunda é o inspetor quando clicamos no Node3D da cena anterior.
 
 É aqui onde vamos arrastar o .tres do item, que está na pasta Ferramentas/Tocha,nesse exemplo.
 
-![Inspetor Tocha Mundo Node3D](docs_PTBR/Imagens/InspetorTochaMundo.png)
+![Inspetor Tocha Mundo Node3D](Imagens/InspetorTochaMundo.png)
 
 A outra foto é um print da árvore Cena3D do item que está na pasta Cenas/CenasMaoJogador.
 
 Essa e a cena que vai ser instancia da na mão do jogador.
 
-![Arvore Cena Tocha Mao Jogador](docs_PTBR/Imagens/TochaMaoArvore3D.png)
+![Arvore Cena Tocha Mao Jogador](Imagens/TochaMaoArvore3D.png)
 
 Nesse caso não temos nenhum script no Node3D, isso por que a unica função que a tocha tem, que é piscar a luz, está direto na OmniLight3D.
 
@@ -184,7 +184,7 @@ A outra imagem é o inspetor do tocha_data.tres é aqui onde botamos a informaç
 
 E é esse arquivo que vai ser arrastado no inspetor da TochaMundo, a segunda imagem no nosso caso.
 
-![Inspetor tocha_data.tres](docs_PTBR/Imagens/InspetorTochaTres.png)
+![Inspetor tocha_data.tres](Imagens/InspetorTochaTres.png)
 
 Vale ver que la embaixo tem uma parte escrita Cena 3D é ali onde vamos botar a cena 3d da imagem anterior.
 
