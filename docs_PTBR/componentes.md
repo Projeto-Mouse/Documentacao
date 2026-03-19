@@ -4,5 +4,6 @@ A ideia deste documento é apresentar a documentação dos componentes do nosso 
 
 Componentes são scripts adicionados a objetos (ou entidades) do mundo do jogo para que executem comportamentos específicos.
 
+- [Area_Transição](Componentes/ScriptAreaTransicao.md)
 - [Objeto Escalável](Componentes/objeto_escalavel.md)
 - [Sensor Auditivo](Componentes/sensor_auditivo.md)
