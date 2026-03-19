@@ -4,7 +4,7 @@
 
 A ideia aqui é apresentar a estrutura atual que estamos usando de itens e como criar um item novo, caso você precise — e vai precisar.
 
-## 2 - Estrutura de pastas e o que cada uma faz.
+### 2 - Estrutura de pastas e o que cada uma faz.
 
 ```
 📁 Itens/
@@ -26,7 +26,7 @@ A ideia aqui é apresentar a estrutura atual que estamos usando de itens e como 
 
 Por enquanto, a estrutura de pastas está assim, e acho que está em um bom caminho.
 
-### 2.1 - O que cada pasta/arquivo faz
+#### 2.1 - O que cada pasta/arquivo faz
 
 ```
 📁 Itens/
@@ -96,7 +96,7 @@ Então, até agora, cada item tem:
 
 * Uma pasta para os scripts e script de data do item, além do .tres.
 
-### 2.2 Script ItemData e ItemMundo.
+#### 2.2 Script ItemData e ItemMundo.
 
 O script ItemData é o script que tem as variáveis que todos os itens do jogo têm.
 
@@ -118,7 +118,7 @@ E ItemData (que irá virar um .tres) tem uma variável que guarda a cena_3d do i
 
 cena_3d também é um @export, ou seja, colocamos pelo inspetor.
 
-## 3 - Como criar um item novo.
+### 3 - Como criar um item novo.
 
 Após criarmos o sprite do item, vamos colocá-lo na pasta sprite.
 
@@ -158,7 +158,7 @@ Além disso, vamos na parte cena_3d e vamos adicionar a cena que está na pasta 
 
 E pronto, agora é só instanciar a cena que está em Cenas/CenasMapa no mapa e temos o item lá pronto para ser pego pelo jogador.
 
-## 4 - Algumas imagens
+### 4 - Algumas imagens
 
 A primeira imagem é a árvore da cena da tocha que fica na pasta Cenas/CenasMundo:
 
@@ -190,7 +190,7 @@ Vale ver que la embaixo tem uma parte escrita Cena 3D é ali onde vamos botar a 
 
 Que é a Cena3D que vai ser instanciada na mão do jogador.
 
-## 5 - Final
+### 5 - Final
 
 Esse é o resultado que temos até agora dos itens e de como cria-los, possivelmente isso venha mudando conforme o tempo, mas está bom por enquanto.
 
