@@ -159,3 +159,57 @@ Além disso, vamos na parte cena_3d e vamos adicionar a cena que está na pasta 
 E pronto, agora é só instanciar a cena que está em Cenas/CenasMapa no mapa e temos o item lá pronto para ser pego pelo jogador.
 
 ## 4 - Algumas imagens
+
+A primeira imagem é a árvore da cena da tocha que fica na pasta Cenas/CenasMundo:
+
+![Arvore Cena Tocha Mundo](docs_PTBR/Imagens/TochaMundoArvore.png)
+
+A segunda é o inspetor quando clicamos no Node3D da cena anterior.
+
+É aqui onde vamos arrastar o .tres do item, que está na pasta Ferramentas/Tocha,nesse exemplo.
+
+![Inspetor Tocha Mundo Node3D](docs_PTBR/Imagens/InspetorTochaMundo.png)
+
+A outra foto é um print da árvore Cena3D do item que está na pasta Cenas/CenasMaoJogador.
+
+Essa e a cena que vai ser instancia da na mão do jogador.
+
+![Arvore Cena Tocha Mao Jogador](docs_PTBR/Imagens/TochaMaoArvore3D.png)
+
+Nesse caso não temos nenhum script no Node3D, isso por que a unica função que a tocha tem, que é piscar a luz, está direto na OmniLight3D.
+
+Que é o script que faz a luz piscar dinâmicamente.
+
+A outra imagem é o inspetor do tocha_data.tres é aqui onde botamos a informações da tocha.
+
+E é esse arquivo que vai ser arrastado no inspetor da TochaMundo, a segunda imagem no nosso caso.
+
+![Inspetor tocha_data.tres](docs_PTBR/Imagens/InspetorTochaTres.png)
+
+Vale ver que la embaixo tem uma parte escrita Cena 3D é ali onde vamos botar a cena 3d da imagem anterior.
+
+Que é a Cena3D que vai ser instanciada na mão do jogador.
+
+## 5 - Final
+
+Esse é o resultado que temos até agora dos itens e de como cria-los, possivelmente isso venha mudando conforme o tempo, mas está bom por enquanto.
+
+A ideia de ter separado a Cena3D do item que fica no mundo para pegarmos é por alguns motivos.
+
+O primeiro é que temos que adicionar uma Area3D com CollisionShape3D, coisa que a cena da tocha na mão do jogador não vai ter.
+
+A segunda é que fica mais facil de por no mundo só a cena do que criar a cena toda dentro da árvore da cena do mundo.
+
+O mundo tem a cena do item, mas não sabe como ela é por dentro.
+
+O terceiro é que com certeza poderiamos instanciar tudo isso por código ao gerar o item no mundo ( sua cena ). 
+
+Ou então remover tudo ao instanciar na mão do jogador.
+
+Mas isso usaria muito código apenas para por ou tirar o item do mundo. 
+
+Além disso pode ser que tenhamos sprites diferentes para o item na mão do jogador, no inventário e no mundo.
+
+Então a cena separada fica mais facil de botarmos esses sprites.
+
+Espero que tenham gostado.
